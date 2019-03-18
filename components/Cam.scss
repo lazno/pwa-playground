@@ -1,0 +1,38 @@
+.cam-container {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  video {
+    z-index: 1;
+  }
+}
+
+.outer {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: black;
+  display: flex;
+}
+
+
+@media screen and (orientation: portrait) {
+  .outer {
+    flex-direction: column;
+  }
+
+}
+
+@media screen and (orientation: landscape) {
+  .outer {
+    flex-direction: row;
+  }
+
+}

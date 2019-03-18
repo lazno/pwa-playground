@@ -1,0 +1,45 @@
+$bar-size: 60px;
+
+.button-bar {
+  z-index: 100;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: white;
+}
+
+.button-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media screen and (orientation: landscape) {
+  .button-bar {
+    flex-direction: row;
+    height: 100%;
+    width: $bar-size;
+    right: 0;
+  }
+  .button-element {
+    height: $bar-size;
+    width: 100%;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .button-bar {
+    flex-direction: column;
+    width: 100%;
+    height: $bar-size;
+    bottom: 0;
+  }
+
+  .button-element {
+    width: $bar-size;
+    height: 100%;
+  }
+}
