@@ -21,6 +21,10 @@ module.exports = withOffline(
             {
               urlPattern: /static/,
               handler: "networkFirst"
+            },
+            {
+              urlPattern: /.html$/,
+              handler: "networkFirst"
             }
           ]
         }
