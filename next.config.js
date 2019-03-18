@@ -16,7 +16,11 @@ module.exports = withOffline(
           templatedUrls: {
             '/' : '/index.html',
             '/index' : '/index/index.html',
-            '/capture' : '/capture/index.html'
+            '/index/' : '/index/index.html',
+            '/capture' : '/capture/index.html',
+            '/capture/' : '/capture/index.html',
+            '/animation' : '/animation/index.html',
+            '/animation/' : '/animation/index.html'
           },
           runtimeCaching: [
             {
