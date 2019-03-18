@@ -16,11 +16,11 @@ module.exports = withOffline(
           runtimeCaching: [
             {
               urlPattern: /_next\/static/,
-              handler: "cacheFirst"
+              handler: "networkFirst"
             },
             {
               urlPattern: /static/,
-              handler: "cacheFirst"
+              handler: "networkFirst"
             }
           ]
         }
