@@ -13,6 +13,11 @@ module.exports = withOffline(
       withFonts({
         generateInDevMode: true,
         workboxOpts: {
+          templatedUrls: {
+            '/' : '/index.html',
+            '/index' : '/index/index.html',
+            '/capture' : '/capture/index.html'
+          },
           runtimeCaching: [
             {
               urlPattern: /_next\/static/,
@@ -23,7 +28,7 @@ module.exports = withOffline(
               handler: "networkFirst"
             },
             {
-              urlPattern: /.html$/,
+              urlPattern: /.html/,
               handler: "networkFirst"
             }
           ]
