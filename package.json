@@ -22,7 +22,7 @@
     "fs-extra": "^7.0.1",
     "jslib-html5-camera-photo": "^3.0.2-beta.0",
     "jss": "^9.8.7",
-    "next": "^8.0.3",
+    "next": "^11.1.0",
     "next-fonts": "^0.17.0",
     "next-offline": "^3.3.6",
     "node-sass": "^4.11.0",
