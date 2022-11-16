@@ -22,7 +22,7 @@
     "fs-extra": "^7.0.1",
     "jslib-html5-camera-photo": "^3.0.2-beta.0",
     "jss": "^9.8.7",
-    "next": "^8.0.3",
+    "next": "^13.0.3",
     "next-fonts": "^0.17.0",
     "next-offline": "^3.3.6",
     "node-sass": "^4.11.0",
@@ -31,7 +31,7 @@
     "react-dom": "^16.8.4",
     "react-hammerjs": "^1.0.1",
     "react-jss": "^8.6.1",
-    "styled-jsx": "^3.2.1",
+    "styled-jsx": "^5.1.0",
     "tesseract.js": "^1.0.14",
     "typeface-roboto": "0.0.54",
     "workbox-webpack-plugin": "^4.1.1"
